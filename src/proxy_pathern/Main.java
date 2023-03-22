@@ -6,7 +6,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		Context context = new Context() ;
 		context.setService(new Proxy() );
-		context.compute(14) ;
+		context.compute(14 ) ;
 
 	}
 
