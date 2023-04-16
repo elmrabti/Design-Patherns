@@ -7,7 +7,8 @@
     <!-- bean definitions here -->
     <bean id="dao" class="dao_pathern.dao.DaoImp"></bean>
     <bean id="metier" class="dao_pathern.metier.MetierImp">
-    	<property name="dao" ref="dao"></property>
+    	<!-- <property name="dao" ref="dao"></property> -->
+    	<constructor-arg ref="dao"></constructor-arg>
     </bean>
     
 

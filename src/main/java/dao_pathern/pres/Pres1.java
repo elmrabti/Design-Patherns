@@ -8,8 +8,9 @@ public class Pres1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		MetierImp metier = new MetierImp() ;
-		DaoImp dao = new DaoImp() ;
+		DaoImp dao = new DaoImp() ; //
+		MetierImp metier = new MetierImp(dao) ; // sans parametre mais puisqu'on a changé le constructeur 
+		                                        // donc on est obligé de donner dao en parametre
 		metier.setDao(dao);
 		System.out.println(metier.calcul() );
 		

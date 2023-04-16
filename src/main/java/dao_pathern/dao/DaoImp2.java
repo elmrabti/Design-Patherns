@@ -1,5 +1,10 @@
 package dao_pathern.dao;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+//@Component("dao_ws")
+@Repository
 public class DaoImp2 implements IDao {
 
 	@Override
