@@ -8,7 +8,7 @@ public class Proxy implements IService {
 										
 		System.out.println("Before proxy");
 		double resultat = service.compute(val) ;
-		System.out.println("Before proxy");
+		System.out.println("After proxy");
 
 		return resultat;
 	}

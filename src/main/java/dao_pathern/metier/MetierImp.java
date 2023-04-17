@@ -11,13 +11,14 @@ import dao_pathern.dao.IDao;
 @Service
 public class MetierImp implements IMetier {
 	
-	@Autowired
-	@Qualifier("dao_ws")
+	//@Autowired
+	//@Qualifier("dao_ws")
 	private IDao dao ;  // Couplage faible
 	
 	
 	public MetierImp(IDao dao) {
 		this.dao = dao;
+		System.out.println("Consructeur MetierImp");
 	}
 
 	@Override
