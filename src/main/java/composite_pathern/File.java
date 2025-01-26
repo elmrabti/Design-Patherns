@@ -4,7 +4,6 @@ public class File extends Composant {
 
 	public File(String nom) {
 		super(nom);
-		
 	}
 
 	@Override

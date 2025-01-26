@@ -1,2 +1,2 @@
-dao_pathern.dao.DaoImp
+dao_pathern.dao.DaoImp2
 merier.MetierImp

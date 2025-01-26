@@ -1,20 +1,14 @@
 package composite_pathern;
 
 public abstract class Composant {
-	
-	
+
 	protected String nom;
 	protected int level ;
-	
-	
 	
 	public Composant(String nom) {
 		super();
 		this.nom = nom;
 	}
-
-
-
 
 	public abstract void print() ;
 	
@@ -24,5 +18,4 @@ public abstract class Composant {
 			tab += "\t" ;
 		return tab;
 	}
-
 }

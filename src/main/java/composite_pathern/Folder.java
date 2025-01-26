@@ -9,7 +9,6 @@ public class Folder extends Composant {
 
 	public Folder(String nom) {
 		super(nom);
-		
 	}
 
 	@Override
@@ -19,14 +18,10 @@ public class Folder extends Composant {
 			c.print();
 		
 	}
-	
-	
-	
+
 	public Composant addChild(Composant composant) {
 		composant.level = this.level +1 ;
 		this.composants.add(composant) ;
 		return composant;
 	}
-	
-
 }

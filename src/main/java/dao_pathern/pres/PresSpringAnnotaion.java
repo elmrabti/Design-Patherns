@@ -8,7 +8,6 @@ import dao_pathern.metier.IMetier;
 public class PresSpringAnnotaion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ApplicationContext context = new AnnotationConfigApplicationContext("dao_pathern.dao", "dao_pathern.metier") ;
 		IMetier metier = context.getBean(IMetier.class) ;
 		

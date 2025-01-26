@@ -1,2 +1,0 @@
-dao_pathern.dao.DaoImp
-merier.MetierImp

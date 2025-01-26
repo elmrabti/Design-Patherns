@@ -11,7 +11,7 @@ public class HdmiVgaAdapterHerit extends TV implements Vga {
 		System.out.println("=========Adapter avec heritage==========");
 		byte[] bytes = message.getBytes() ;
 		super.view(bytes);
-		System.out.println("=========Adapter avec héritage==========");
+		System.out.println("=========Adapter avec heritage==========");
 
 	}
 

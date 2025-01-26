@@ -9,7 +9,7 @@ public class DaoImp2 implements IDao {
 
 	@Override
 	public double getData() {
-		System.out.println("Valeur récupérée par le web service");
+		System.out.println("Valeur recuperee par le web service");
 		double data = 25 ;
 		return data ;
 	}

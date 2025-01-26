@@ -41,15 +41,11 @@ public class Pres2 {
 		// puisqu'on peut pas appeler setDao() de metier directement parceque metier de type
 		// IMetier qui ne contient pas pas setDao()
 		// Donc on appelle la methode dynamiquement 
-		// On appelle setDao de la classe cMetier qui est définit dynamiquement
+		// On appelle setDao de la classe cMetier qui est definit dynamiquement
 		setDao.invoke(metier, dao) ;
-		
-		
-		
-		
+
 		System.out.println(metier.calcul() );
-		
-		
+
 
 	}
 

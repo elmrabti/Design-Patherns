@@ -3,11 +3,9 @@ package composite_pathern;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		Folder folder = new Folder("racine");
 
-		
 		folder.addChild(new File("projet.java") ) ;
 		folder.addChild(new File("config.properties") ) ;
 		
@@ -16,10 +14,8 @@ public class Main {
 		folderSec.addChild(new File("creation.sql") ) ;
 		Folder folderTest = (Folder) folderSec.addChild(new Folder("test") );
 		folderTest.addChild(new File("test1.java")) ;
-		
-		
+
 		folder.print();
-		
 
 	}
 

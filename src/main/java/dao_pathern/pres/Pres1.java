@@ -7,10 +7,9 @@ import dao_pathern.metier.MetierImp;
 public class Pres1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		DaoImp dao = new DaoImp() ; //
-		MetierImp metier = new MetierImp(dao) ; // sans parametre mais puisqu'on a changé le constructeur 
-		                                        // donc on est obligé de donner dao en parametre
+		MetierImp metier = new MetierImp(dao) ; // sans parametre mais puisqu'on a changï¿½ le constructeur 
+		                                        // donc on est obligï¿½ de donner dao en parametre
 		metier.setDao(dao);
 		System.out.println(metier.calcul() );
 		
